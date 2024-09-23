@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">RestaurantName</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to RestaurantName</h1>
+      <p>Discover the best culinary experience, where taste meets tradition.</p>
+      <a href="#menu" class="cta-btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+
+
+  <!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <h2>Our Delicious Menu</h2>
+    <div class="menu-container">
+      <!-- Menu Item 1 -->
+      <div class="menu-card">
+        <img src="./pictures/pexels-rachel-claire-5491036.jpg" alt="Dish 1">
+        <div class="card-content">
+          <h3>Grilled Steak</h3>
+          <p>Succulent grilled steak served with a side of seasonal vegetables and mashed potatoes.</p>
+          <span class="price">rs.2500</span>
+        </div>
+      </div>
+      
+      <!-- Menu Item 2 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Dish 2">
+        <div class="card-content">
+          <h3>Pasta Carbonara</h3>
+          <p>Creamy pasta carbonara with crispy pancetta, served with freshly grated Parmesan.</p>
+          <span class="price">rs. 3000</span>
+        </div>
+      </div>
+  
+      <!-- Menu Item 3 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90" alt="Dish 3">
+        <div class="card-content">
+          <h3>Margherita Pizza</h3>
+          <p>Classic Margherita pizza with fresh mozzarella, basil, and a rich tomato sauce.</p>
+          <span class="price">rs.2500</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<section id="reservation" class="reservation-section">
+    <h2>Make a Reservation</h2>
+    <form class="reservation-form">
+      <!-- Radio Button: Dining Option -->
+      <div class="form-group">
+        <label>Choose Your Dining Option:</label>
+        <label>
+          <input type="radio" name="dining-option" value="dine-in" checked>
+          Dine-In
+        </label>
+        <label>
+          <input type="radio" name="dining-option" value="takeaway">
+          Takeaway
+        </label>
+      </div>
+  
+      <!-- Dropdown: Number of Guests -->
+      <div class="form-group">
+        <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6+">6+</option>
+        </select>
+      </div>
+  
+
+      
+      <!-- Text Input: Special Requests -->
+      <div class="form-group">
+        <label for="special-requests">Special Requests:</label>
+        <input type="text" id="special-requests" name="special-requests" placeholder="Any special requests?">
+      </div>
+  
+      <!-- Checkbox: Accept Terms -->
+      <div class="form-group">
+        <label>
+          <input type="checkbox" name="terms" required>
+          I accept the terms and conditions
+        </label>
+      </div>
+  
+      <!-- Submit Button -->
+      <button type="submit">Submit Reservation</button>
+    </form>
+  </section>
+  
+
+  
+  
+
+  
+
+</body>
+</html>

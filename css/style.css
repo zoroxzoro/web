@@ -1,0 +1,189 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .navbar-container {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    padding-top: 150px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .cta-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f04e31;
+    color: white;
+    border-radius: 5px;
+  }
+  
+
+  .menu-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .menu-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-container {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .menu-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #f04e31;
+  }
+  
+
+  .reservation-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .reservation-form {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="radio"],
+  .form-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .form-group select,
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #f04e31;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d94427;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
